@@ -9,6 +9,8 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        var world = new World(10, 10);
+        System.out.println(world);
+
     }
 }
