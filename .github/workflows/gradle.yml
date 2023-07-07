@@ -34,4 +34,4 @@ jobs:
       uses: gradle/gradle-build-action@749f47bda3e44aa060e82d7b3ef7e40d953bd629
     - name: Run build with Gradle Wrapper
       id: gradle
-      run: ./gradlex build
+      run: ./gradlew build
